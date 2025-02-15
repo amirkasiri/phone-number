@@ -156,3 +156,15 @@ select {
   cursor: pointer;
   display: none;
 }
+
+
+.todo-mobile-input {
+  -moz-appearance: textfield; 
+}
+
+.todo-mobile-input::-webkit-outer-spin-button,
+.todo-mobile-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
